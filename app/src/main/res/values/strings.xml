@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">WifiSMSGenric</string>
+    <string name="selectSim">Select SIM:  %s</string>
+    <string name="number1">Mobile Number 1</string>
+    <string name="number2">Mobile Number 2</string>
+    <string name="save">Save</string>
+    <string name="title_recipients">Set Recipients</string>
+    <string name="numberRequired">Enter one number to proceed</string>
+    <string name="enterValidNumber">Enter E164 formatted mobile numbers only</string>
+    <string name="turnOnWifi">Please turn on Wifi and connect to AP of kit.</string>
+    <string name="wifiNotActive">Wifi Turned Off</string>
+    <string name="wifiNotConnected">Connect to Wifi Network</string>
+    <string name="permissionNotProvided">SMS Permission Denied</string>
+    <string name="smsSent">SMS Sent Successfully!!</string>
+    <string name="smsFailed">SMS Failed to Sent</string>
+    <string name="serviceStarted">Service Started</string>
+    <string name="serviceStopped">Service Stopped</string>
+    <string name="commandForwardSuccess">Command Forwarded Successfully!!</string>
+
+</resources>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:visibility="gone"
+        android:id="@+id/messageView"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:textColor="@android:color/holo_orange_light"
+        android:background="@color/messageViewBackground"
+        android:layout_width="match_parent"
+        android:layout_height="30dp" />
+
+    <FrameLayout
+        android:id="@+id/root_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>

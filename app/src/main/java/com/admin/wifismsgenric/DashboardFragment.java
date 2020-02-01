@@ -35,7 +35,7 @@ public class DashboardFragment extends Fragment {
     private static final String DIS_CONNECTED = "Disconnected";
     private static final String CONNECTING = "Connecting";
 
-    private static final int PORT = 5678;
+    private static final int PORT = 80;
 
     private TextView errorMessageView;
     private TextView serverInfoView;

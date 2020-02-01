@@ -20,8 +20,8 @@ import androidx.annotation.Nullable;
 import androidx.annotation.RequiresApi;
 import androidx.core.app.NotificationCompat;
 
-import com.admin.wifismsgenric.client.EdotWifiSMSClient;
 import com.admin.wifismsgenric.client.RemoteClient;
+import com.admin.wifismsgenric.client.WifiSmsClient;
 
 import java.util.ArrayList;
 
@@ -151,7 +151,7 @@ public class MyService extends Service {
                 int port = intent.getIntExtra(PORT_NUMBER,80);
                 mobileNumbers = intent.getStringArrayExtra(MOBILE_NUMBERS);
 
-                remoteClient = new EdotWifiSMSClient(ip,port,handler);
+                remoteClient = new WifiSmsClient(ip,port,handler);
                 remoteClient.connect(remoteCallBack);
 
                 registerSMSReceiveBroadcast();

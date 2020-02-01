@@ -5,6 +5,10 @@ import androidx.annotation.Nullable;
 
 public interface RemoteClient<S,R> {
 
+    int CONNECTING = 0;
+    int CONNECTED = 1;
+    int DIS_CONNECTED = 2;
+
     interface CallBack<V>
     {
         void onConnection(boolean success);
